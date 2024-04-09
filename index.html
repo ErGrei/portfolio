@@ -12,21 +12,21 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/styles.css" />
 
     <title>Responsive portfolio website Chris - Bedimcode</title>
   </head>
   <body>
-        <header class="header" id="header">
+    <header class="header" id="header">
       <nav class="nav container">
         <a href="#" class="nav__logo"> ErGrei </a>
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
-                <a href="#home" class="nav__link">
-                    <i class="ri-home-gear-line"></i> Главная
-                </a>
-              </li>
+              <a href="#home" class="nav__link">
+                <i class="ri-home-gear-line"></i> Главная
+              </a>
+            </li>
 
             <li class="nav__item">
               <a href="#skills" class="nav__link">
@@ -35,7 +35,7 @@
             </li>
 
             <li class="nav__item">
-              <a href="#qualification" class="nav__link"> 
+              <a href="#qualification" class="nav__link">
                 <i class="ri-book-open-line"></i> Опыт
               </a>
             </li>
@@ -57,20 +57,72 @@
           </div>
         </div>
         <div class="nav__buttons">
-            <!-- <i class="ri-moon-line change-teme" id="theme-button"></i> -->
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="ri-menu-4-line"></i>
-            </div>
+          <!-- <i class="ri-moon-line change-teme" id="theme-button"></i> -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>
+          </div>
         </div>
       </nav>
     </header>
     <main class="main">
-       <section class="home section" id="home"></section>
+      <section class="home section" id="home">
+        <div class="home__container container grid section__border">
+          <div class="home__data grid">
+            <h1 class="home__title">
+              Здравствуйте, меня зовут Иван <br />
+              и я Frontend разработчик
+            </h1>
+            <div class="home__blob grid">
+              <div class="home__perfil">
+                <img src="/public/img/perfil.jpg" alt="home perfil">
+              </div>
+
+              <img src="/public/img/shape-wawes.svg" alt="" class="home__shape-wawes">
+              <img src="/public/img/shape-circle.svg" alt="" class="home__shape-circle">
+            </div>
+            <ul class="home__social">
+              <a href="https://github.com/ErGrei" target="_blank" class="home__social-link">
+                <i class="ri-github-line"></i>
+              </a>
+
+            </ul>
+          </div>
+
+          <div class="home__info">
+            <div>
+              <h3 class="home__info-title">
+                Лет опыта
+              </h3>
+
+              <p class="home__info-number">
+                1+
+              </p>
+            </div>
+            <div>
+              <h3 class="home__info-title">
+                Проектов выполнено
+              </h3>
+
+              <p class="home__info-number">
+          3+
+              </p>
+            </div>
+            <div>
+              <h3 class="home__info-title">
+                Репозиториев
+              </h3>
+
+              <p class="home__info-number">
+                5+
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="skills section" id="skills"></section>
       <section class="qualification section" id="qualification"></section>
-      <section class="services section" id="services"></section>
       <section class="projects section" id="projects"></section>
-      <section class="testimonial section"></section>
       <section class="contact section" id="contact"></section>
     </main>
     <footer class="footer"></footer>
