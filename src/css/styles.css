@@ -153,7 +153,7 @@ body.dark-theme {
 }
 
 .main {
-  overflow: hidden; /* For animation */
+  overflow: hidden; 
 }
 
 /*=============== HEADER & NAV ===============*/
@@ -240,42 +240,6 @@ body.dark-theme {
   cursor: pointer;
 }
 /* Show menu */
-
-/* Active link */
-
-/*=============== HOME ===============*/
-
-/*=============== SKILLS ===============*/
-
-/* Animation skills */
-
-/*=============== QUALIFICATION ===============*/
-
-/*=============== SERVICES ===============*/
-
-/*=============== PROJECTS ===============*/
-
-/* Swiper class */
-
-/*=============== TESTIMONIAL ===============*/
-
-/* Swiper class */
-
-/*=============== CONTACT ===============*/
-
-/* Status color */
-
-/*=============== FOOTER ===============*/
-
-/*=============== SCROLL BAR ===============*/
-
-/*=============== SCROLL UP ===============*/
-
-/* Show Scroll Up*/
-
-/*=============== BREAKPOINTS ===============*/
-/* For small devices */
-
-/* For medium devices */
-
-/* For large devices */
+.show-menu {
+  bottom: 2rem;
+}
