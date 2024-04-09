@@ -1,16 +1,29 @@
-function replaceColor(){
-    document.querySelector('.btn').addEventListener('click', function() {
-        document.documentElement.style.setProperty('--background-color', getRandomColor());
-    })
-}
+/*=============== SHOW MENU ===============*/
 
-function getRandomColor() {
-    var letters = '0123456789ABCDEF';
-    var color = '#';
-    for (var i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-}
 
-replaceColor()
+/*=============== REMOVE MENU MOBILE ===============*/
+
+
+/*=============== SWIPER PROJECTS ===============*/
+
+
+/*=============== SWIPER TESTIMONIAL ===============*/
+
+
+/*=============== EMAIL JS ===============*/
+
+
+/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
+
+
+/*=============== SHOW SCROLL UP ===============*/ 
+
+
+/*=============== DARK LIGHT THEME ===============*/ 
+
+
+/*=============== CHANGE BACKGROUND HEADER ===============*/
+
+
+/*=============== SCROLL REVEAL ANIMATION ===============*/
+
